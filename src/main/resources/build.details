@@ -1,0 +1,11 @@
+build_date=${timestamp}
+artifact=${project.artifactId}
+name=${project.name}
+description=${project.description}
+version=${project.version}
+build_env_spring_profile=${env.SPRING_PROFILES_ACTIVE}
+build_spring_profile=${spring.profiles.active}
+build_os=${os.name}
+build_arch=${os.arch}
+build_os_version=${os.version}
+build_user=${user.name}
